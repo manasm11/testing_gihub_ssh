@@ -79,7 +79,12 @@ Go inside the project folder then:<br>
 
 ```git status -s```
 
-## View difference between files staged and files last committed:
+## View differences in different branches
+```git diff <other branch name>```
 >staged means changes that are added but not committed.
+>To view difference between last commit and staged files, use:
+
 ```git diff --staged```
+## Merging branches
+```git merge <other branch>
 
