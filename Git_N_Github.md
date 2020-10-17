@@ -71,6 +71,15 @@ Go inside the project folder then:<br>
 >To view *5* commits, use
 
 ```git log -p -5```
+## Delete a branch
+```git branch -d <branch name>```
+## View status
+```git status```
+>To view status in a compact form, use:
 
+```git status -s```
 
+## View difference between files staged and files last committed:
+>staged means changes that are added but not committed.
+```git diff --staged```
 
