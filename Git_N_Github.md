@@ -35,14 +35,21 @@ Go inside the project folder then:<br>
 ```git remote add origin <link to remote repository>```
 
 <div style="page-break-after: always"></div> 
-<a name="_PULL_"></a>
 
 # Frequently Used Commands <a name="_FREQUENT_"></a>
-## git fetch
+<!-- ## git fetch -->
+## Pushing to remote repository
+```git push <link to remote repository>```
+>To not remember the link to remote repository, we create a kind of variable to store the remote repository link using:
+
+```git remote add <name of variable> <link to remote repository>```
+>Generally \<name of variable> is *origin*.
+
+>We can also specify the branch we want to push by adding the branch name at the end of these commands. Eg:
+```git push origin master```
 
 
 <div style="page-break-after: always"></div> 
-<a name="_PULL_"></a>
 
 # Miscellaneous Commands <a name="_MISC_"></a>
 ## Create branch
@@ -50,6 +57,8 @@ Go inside the project folder then:<br>
 ## Switch branch
 ```git checkout <branch name>```
 >To create and checkout the branch, use
+
+>To not specify origin each time, we can use -u option after git push to make it default remote repository to push to. After doing that, from next time, command for pushing just remains:```git push```
 
 ```git checkout -b <branch name>```
 ## Go to just previous commit
@@ -62,4 +71,6 @@ Go inside the project folder then:<br>
 >To view *5* commits, use
 
 ```git log -p -5```
+
+
 
