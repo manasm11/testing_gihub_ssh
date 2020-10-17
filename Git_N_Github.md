@@ -28,6 +28,8 @@
 
 ## Cloning<a name="_CLONING_"></a>
 ```git clone <link to repository>```
+>To change the name of directory-name of cloned repository, add directory-name at the end of command:
+```git clone <link to remote repository> <directory name>```
 
 ## Creating<a name="_CREATING_"></a>
 Go inside the project folder then:<br>
@@ -54,6 +56,9 @@ Go inside the project folder then:<br>
 # Miscellaneous Commands <a name="_MISC_"></a>
 ## Create branch
 ```git branch <branch name>```
+>To override existing branch with current one, use:
+
+```git branch -f <branch name>```
 ## Switch branch
 ```git checkout <branch name>```
 >To create and checkout the branch, use
@@ -63,6 +68,7 @@ Go inside the project folder then:<br>
 ```git checkout -b <branch name>```
 ## Go to just previous commit
 ```git checkout -f```
+
 ## View commits
 ```git log```
 >To view commits with differences
@@ -71,6 +77,8 @@ Go inside the project folder then:<br>
 >To view *5* commits, use
 
 ```git log -p -5```
+
+
 ## Delete a branch
 ```git branch -d <branch name>```
 ## View status
