@@ -30,7 +30,7 @@
 ```git clone <link to repository>```
 
 ## Creating<a name="_CREATING_"></a>
-Go inside folder:<br>
+Go inside the project folder then:<br>
 ```git init```
 ```git remote add origin <link to remote repository>```
 
@@ -38,4 +38,28 @@ Go inside folder:<br>
 <a name="_PULL_"></a>
 
 # Frequently Used Commands <a name="_FREQUENT_"></a>
-## git pull
+## git fetch
+
+
+<div style="page-break-after: always"></div> 
+<a name="_PULL_"></a>
+
+# Miscellaneous Commands <a name="_MISC_"></a>
+## Create branch
+```git branch <branch name>```
+## Switch branch
+```git checkout <branch name>```
+>To create and checkout the branch, use
+
+```git checkout -b <branch name>```
+## Go to just previous commit
+```git checkout -f```
+## View commits
+```git log```
+>To view commits with differences
+
+```git log -p```
+>To view *5* commits, use
+
+```git log -p -5```
+
