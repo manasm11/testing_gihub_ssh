@@ -31,8 +31,10 @@
 ## Creating<a name="_CREATING_"></a>
 Go inside folder:<br>
 ```git init```
+```git remote add origin <link to remote repository>```
 
 <div style="page-break-after: always"></div> 
 <a name="_PULL_"></a>
 
 # Frequently Used Commands <a name="_FREQUENT_"></a>
+## git pull
