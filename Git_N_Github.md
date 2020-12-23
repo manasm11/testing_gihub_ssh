@@ -94,5 +94,14 @@ Go inside the project folder then:<br>
 
 ```git diff --staged```
 ## Merging branches
-```git merge <other branch>
+```git merge <other branch>```
 
+# Reset to previous commit:
+```git stash```
+```git stash clear```
+
+# Committing
+```git commit```
+```git commit -m "message"```
+>To give smaller feedback:
+```git commit -am "message"```
