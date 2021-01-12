@@ -105,3 +105,9 @@ Go inside the project folder then:<br>
 ```git commit -m "message"```
 >To give smaller feedback:
 ```git commit -am "message"```
+
+# Rebase
+- [ ] ```git rebase [other-branch]```
+  - [ ] Synchronizes the current branch with [other-branch]
+  - [ ] Dangerous command, as deletes all commits that are not in [other-branch]
+- [ ] 
