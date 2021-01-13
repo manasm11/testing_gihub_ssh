@@ -147,3 +147,10 @@ Go inside the project folder then:<br>
   - [ ] To ignore directory dir even in any subdirectory.
 - [ ] /dir/
   - [ ] To ignore only outer dir directory.
+- [ ] # To write comments.
+- [ ] Goto gitignore.io to auto-generate .gitignore files depending upon your project.
+
+# Github
+- [ ] Adding ssh keys.
+  - [ ] ssh-keygen -t rsa -b 4096 -C "your email address" -f ~/.ssh/key_name
+  - [ ] Copy copy key_name.pub to github ssh keys.
